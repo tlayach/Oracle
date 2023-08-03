@@ -1,0 +1,4 @@
+-- last 4 letters
+SELECT SUBSTR('HELLO WORLD', -4) AS OUTPUT
+FROM DUAL;
+-- ORLD

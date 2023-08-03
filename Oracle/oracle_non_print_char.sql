@@ -1,0 +1,3 @@
+SELECT REGEXP_REPLACE(CHR(7), '[^[:print:]]', '?') AS OUTPUT
+FROM DUAL;
+-- ?

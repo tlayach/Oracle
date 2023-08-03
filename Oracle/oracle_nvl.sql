@@ -1,0 +1,4 @@
+-- if its null then IS NULL
+SELECT NVL(NULL, 'IS NULL') AS OUTPUT
+FROM DUAL;
+-- IS NULL

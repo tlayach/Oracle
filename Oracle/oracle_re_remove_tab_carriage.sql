@@ -1,0 +1,6 @@
+-- UNDER CONSTRUCTION!!!!
+DEFINE MY_TEXT = 'MSWORD (–) SIGN €';
+SELECT '&&MY_TEXT' AS ORIGINAL,
+  REGEXP_REPLACE('&&MY_TEXT', '[^[:print:]]', '') AS CHANGED,
+  REGEXP_REPLACE('&&MY_TEXT', '(^[[:space:]]*|[[:space:]]*$)', ' ') AS CHANGED_2
+FROM DUAL;
